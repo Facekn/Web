@@ -1,0 +1,16 @@
+<head>
+    <title>Получить имя</title>
+</head>
+<body>
+    <h2>Введите ваше имя</h2>
+    <button onclick="displayUserName()">Подтвердить</button>
+    <p id="output"></p>
+
+    <script>
+        function displayUserName() {
+            var userName = prompt("Введите ваше имя");
+            document.getElementById('output').innerHTML = "Привет, " + userName + "!";
+        }
+    </script>
+</body>
+</html>
